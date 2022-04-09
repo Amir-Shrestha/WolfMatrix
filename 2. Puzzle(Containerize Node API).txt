@@ -1,0 +1,5 @@
+Step_1: Pull image from DockerHub.
+    > docker run -it -d -p 8006:8006 simba06/node-api:version_1
+
+Step_2:
+    > Browse http://localhost:8006/ and see it returns my name and gmail.
